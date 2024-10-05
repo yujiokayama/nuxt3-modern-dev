@@ -1,19 +1,30 @@
 ## 開発環境ととのえろー
 
-### 何を導入する？
+### Linter & formatter
 
 - Biome: https://biomejs.dev/ja/
   - Lint と formatter（style-lint の役割も果たせるのかも検証したい）
 - style-lint
   - プロパティの順番を統一したい
+
+### Test
+
 - Playwright
   - E2E テスト、リグレッションテスト
+
+### Mock
+
 - MSW
   - API のモッキング 1.初期化
   ```
   npx msw init ./public --save
   ```
   2.プラグインを作成
+
+### Other
+
+- 環境変数の扱い
+  https://tyotto-good.com/nuxtjs/environment-variable
 
 # Nuxt 3 Minimal Starter
 
