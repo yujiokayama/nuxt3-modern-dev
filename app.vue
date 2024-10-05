@@ -18,7 +18,5 @@ const userList = ref([
   { id: 3, name: "Charlie" },
 ]);
 
-onMounted(() => {
-  user.setUserList(userList.value);
-});
+user.setUserList(userList.value);
 </script>
