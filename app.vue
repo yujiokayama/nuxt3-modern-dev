@@ -12,12 +12,7 @@ import { useUserStore } from "@/store/user";
 
 const user = useUserStore();
 
-interface User {
-  id: number;
-  name: string;
-}
-
-const userList = ref<User[]>([
+const userList = ref([
   { id: 1, name: "Alice" },
   { id: 2, name: "Bob" },
   { id: 3, name: "Charlie" },
